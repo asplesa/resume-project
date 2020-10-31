@@ -17,7 +17,11 @@
 .bg-color-work-history {
     background-color: #9b59b6;
 }
- 
+
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -34,20 +38,41 @@
     background-color: #525252;
 }
 
-/*--------------------------------------------Special paddings/margins/text.css*/
+.row-table {
+    display: table;
+}
 
-h1, h2, h3, h4, {
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
 .uppercase {
-    text-transform: uppercase;}
+    text-transform: uppercase;
+}
 
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
-}    
+}
 
 .inline-block {
     display: inline-block;
@@ -62,6 +87,7 @@ h1, h2, h3, h4, {
     padding: 0 30px 30px;
     float: none;
 }
+
 .history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
@@ -69,6 +95,7 @@ h1, h2, h3, h4, {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -115,13 +142,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -156,15 +183,19 @@ header {
 }
 
 /*--------------------------------------------Hover.css*/
+
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
+
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
+    margin: 0;
 }
 
 .cv-pdf i {
@@ -210,7 +241,7 @@ footer {
     padding: 20px;
 }
 
-/*--------------------------------------------three reasons*/
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
@@ -221,7 +252,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/*--------------------------------------------Personal Info*/
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -256,7 +287,8 @@ footer {
     width: 60%;
 }
 
-/*--------------------------------------------Skills*/
+/* ----------------------------------------Skills */
+
 .progress {
     position: relative;
     height: 25px;
@@ -274,10 +306,9 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
-
 }
 
-/*--------------------------------------------Work History*/
+/* ----------------------------------------Work History */
 
 .history-heading {
     color: #fafafa;
